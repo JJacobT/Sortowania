@@ -182,8 +182,8 @@
 
     <EditText
         android:id="@+id/Il_sortowan"
-        android:layout_width="247dp"
-        android:layout_height="52dp"
+        android:layout_width="228dp"
+        android:layout_height="62dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="s"
@@ -193,5 +193,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.651" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="223dp"
+        android:layout_height="66dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.92"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.782" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
